@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dnd Character Manager</title>
+        <meta charset="uft-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        -->
+    </head>
+    <body>
+        <div class="w3-container text-color-white">
+            <div class="w3-bar w3-dark-gray" style="width: 100%;">
+                <a herf="#" class="w3-bar-item w3-right hover-red">Upload Fillable Charter sheet</a>
+                <a href="https://github.com/Sanktem/dnd-character-site" target="_blank" class="w3-bar-item w3-right hover-red">Github</a>
+            </div>
+            <div class="w3-card w3-cell" style="width: 30%; padding: 5px;"> 
+                <header class="w3-container red">
+                    <h3> 
+                        Basic Character Info
+                    </h3>
+                </header>
+                <div class="w3-container">
+                    <p>Character Name: <script type="text/javascript">document.write(name);</script></p>
+                    <p>Class and Level: <script type="text/javascript">document.write(class_level);</script></p>
+                    <p>Race: <script type="text/javascript">document.write(race);</script></p>
+                    <p>Background: <script type="text/javascript">document.write(background);</script></p>
+                    <p>Alignment: <script type="text/javascript">document.write(alignment);</script></p>
+                </div>
+            </div>
+            <div class="w3-card w3-cell" style="padding: 5px;"> 
+                <header class="w3-container red">
+                    <h3 class="text-align-center">Stats</h3>
+                </header>
+                <div class="w3-container">
+                    <div class="w3-panel w3-border w3-border-red w3-cell">
+                        <p>Strength</p>
+                        <p class="mod_stats"><script type="text/javascript">document.write(str_mod);</script></p>
+                        <p class="main_stats"><script type="text/javascript">document.write(str);</script></p>
+                    </div>
+                    <div class="w3-panel w3-border w3-border-green w3-cell">
+                        <p>Dexterity</p>
+                        <p class="mod_stats"><script type="text/javascript">document.write(dex_mod);</script></p>
+                        <p class="main_stats"><script type="text/javascript">document.write(dex);</script></p>
+                    </div>
+                    <div class="w3-panel w3-border w3-cell">
+                        <p>Constitution</p>
+                        <p class="mod_stats"><script type="text/javascript">document.write(con_mod);</script></p>
+                        <p class="main_stats"><script type="text/javascript">document.write(con);</script></p>
+                    </div>
+                    <div class="w3-panel w3-border w3-border-blue w3-cell">
+                        <p>Intelligence</p>
+                        <p class="mod_stats"><script type="text/javascript">document.write(int_mod);</script></p>
+                        <p class="main_stats"><script type="text/javascript">document.write(int);</script></p>
+                    </div>
+                    <div class="w3-panel w3-border w3-border-yellow w3-cell">
+                        <p>Wisdom</p>
+                        <p class="mod_stats"><script type="text/javascript">document.write(wis_mod);</script></p>
+                        <p class="main_stats"><script type="text/javascript">document.write(wis);</script></p>
+                    </div>
+                    <div class="w3-panel w3-border w3-border-purple w3-cell">
+                        <p>Charisma</p>
+                        <p class="mod_stats"><script type="text/javascript">document.write(cha_mod);</script></p>
+                        <p class="main_stats"><script type="text/javascript">document.write(cha);</script></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html> 

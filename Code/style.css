@@ -1,0 +1,39 @@
+body {
+    background-color: #212121;
+}
+
+card {
+    margin: 5%;
+}
+
+.text-color-white {
+    color: #ffffff
+}
+
+.red, .hover-red:hover {
+    color:#ffffff!important;
+    background-color:#800000!important}
+
+.text-align-center {
+    text-align: center;
+}
+
+.border-red {
+    border-style: solid;
+    border: 1px;
+    border-color: #800000!important;
+
+}
+
+.mod_stats {
+    text-align: center;
+    color: #ffffff;
+    font-size: large;
+    font-weight: bold;
+}
+
+.main_stats {
+    text-align: center;
+    color: #ffffff;
+    font-size: small;
+}
